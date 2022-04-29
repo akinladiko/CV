@@ -61,14 +61,14 @@
 
                     <div id="contact-status"></div>
 
-                    <form action="#" id="contactform">
+                    <form action="mailto:akinladiko@gmail.com" method="post" id="contactform" enctype="text/plain">
                         <p class="form-group" id="contact-name">
                             <label for="name">Your Name</label>
                             <input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Name..." />
                         </p>
                         <p class="form-group" id="contact-email"> 
                             <label for="email">Your Email</label>
-                            <input type="text" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
+                            <input type="email" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
                         </p>
 
                         <p class="form-group" id="contact-message">
@@ -76,10 +76,10 @@
                             <textarea name="message" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Message..."></textarea>
                         </p>
                         <input type="reset" name="reset" value="CLEAR" class="reset">
-                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+                        <input type="submit" name="submit" value="SEND MESSAGE" class="submit">
 
                         <section class="button-demo" style="display: inline-block;">
-                            <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">SEND MESSAGE</button>
+                            <!-- <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">SEND MESSAGE</button> -->
                         </section>
 
                     </form>
